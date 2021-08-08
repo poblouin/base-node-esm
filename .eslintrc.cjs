@@ -11,6 +11,8 @@ module.exports = {
   rules: {
     'max-len': 'warn',
     'import/prefer-default-export': 'off',
+    'max-classes-per-file': 'off',
+    'no-underscore-dangle': 'off',
   },
   overrides: [
     {
